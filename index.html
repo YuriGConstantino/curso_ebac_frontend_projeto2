@@ -20,11 +20,11 @@
         <form id="formCadastro">
             <div>
                 <label>Nome: </label>
-                <input type="text">
+                <input id="usuarioNome" type="text" placeholder="Seu Nome" required>
             </div>
             <div>
                 <label>Telefone: </label>
-                <input type="tel">
+                <input id="usuarioTel" type="tel" placeholder="XXXXX-XXXX" required minlength="9">
             </div>
 
             <button>Cadastrar</button>
@@ -46,6 +46,8 @@
         </table>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
